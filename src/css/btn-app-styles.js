@@ -20,6 +20,12 @@ export const BtnAppCss = css`
         cursor: pointer;
     }
 
+    @media(max-width: 650px) {
+        button {
+            font-size: 15px;
+        }
+    }
+
     button:hover {
         background: #0e85b4cf;
         border: 1px solid #033f70cf;      

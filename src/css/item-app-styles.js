@@ -42,6 +42,12 @@ export const ItemAppCss = css`
         line-height: 18px;
     }
 
+    @media(max-width: 650px) {
+        p {
+            font-size: 14px;
+        }
+    }
+
     p:last-child {
         color: #0d9aec;
     }
