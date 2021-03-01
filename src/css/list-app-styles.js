@@ -13,7 +13,7 @@ export const ListAppCss = css`
 
     @media(max-width: 650px) {
         ul {
-            padding: 0px 20px 50px;
+            padding: 0px 20px 65px;
         }
     }
     `
