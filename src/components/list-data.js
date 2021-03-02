@@ -15,11 +15,6 @@ class ListData extends LitElement {
         return [ListAppCss];
     }
 
-    update() {
-        super.update();
-        //console.log('shadow', this.shadowRoot.querySelector('ul'));
-    }
-
     render() {
         return html`<ul>${this.data.map(el =>
             html`<item-data .data=${el}></item-data>`)}</ul>
