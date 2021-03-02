@@ -42,7 +42,7 @@ export const ItemAppCss = css`
         line-height: 18px;
     }
 
-    @media(max-width: 650px) {
+    @media(max-width: 667px) {
         p {
             font-size: 14px;
         }

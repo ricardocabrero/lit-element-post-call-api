@@ -16,10 +16,6 @@ class ListData extends LitElement {
     }
 
     render() {
-        if(!this.data) {
-            return;
-        }
-
         return html`<ul>${this.data.map(el =>
             html`<item-data .data=${el}></item-data>`)}</ul>
                 <pager-app counter=${this.counter}></pager-app>`

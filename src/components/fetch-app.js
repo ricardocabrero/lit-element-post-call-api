@@ -11,6 +11,7 @@ class FetchApp extends LitElement {
 
     constructor() {
         super();
+        this.data = [];
         this.counter = '1';
     }
 

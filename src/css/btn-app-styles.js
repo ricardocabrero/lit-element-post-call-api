@@ -20,7 +20,7 @@ export const BtnAppCss = css`
         cursor: pointer;
     }
 
-    @media(max-width: 650px) {
+    @media(max-width: 667px) {
         button {
             font-size: 15px;
         }

@@ -9,9 +9,10 @@ export const TitleAppCss = css`
         padding: 0 0 0 40px;
     }
 
-    @media(max-width: 650px) {
+    @media(max-width: 667px) {
         h1 {
             padding-left: 20px;
+            letter-spacing: 0;
         }
     }
     `

@@ -11,7 +11,7 @@ export const ListAppCss = css`
         box-sizing: border-box;
     }
 
-    @media(max-width: 650px) {
+    @media(max-width: 667px) {
         ul {
             padding: 0px 20px 65px;
         }
