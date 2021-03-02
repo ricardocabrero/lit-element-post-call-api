@@ -6,8 +6,7 @@ class PagerApp extends LitElement {
     static get properties() {
         return {
             btns: { type: Number },
-            text: { type: String },
-            counter: { type: String}, 
+            counter: { type: String }, 
         }
     }
 

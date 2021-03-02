@@ -19,7 +19,6 @@ class FetchApp extends LitElement {
         super.connectedCallback();
         this.callFetch(this.counter);
         this.addEventListener('click-btn', this.handleCounter);
-        console.log('window', window.scrollY);
     }
 
     callFetch(param) {
