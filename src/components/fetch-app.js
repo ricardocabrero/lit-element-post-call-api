@@ -19,6 +19,7 @@ class FetchApp extends LitElement {
         super.connectedCallback();
         this.callFetch(this.counter);
         this.addEventListener('click-btn', this.handleCounter);
+        console.log('window', window.scrollY);
     }
 
     callFetch(param) {
@@ -32,6 +33,11 @@ class FetchApp extends LitElement {
         this.counter = detail;
     }
 
+    update() {
+        super.update();
+        window.scrollTo(0, 0);
+    }
+   
     render() {
         return html`
             <list-data counter=${this.counter} .data=${this.data}></list-data>`
